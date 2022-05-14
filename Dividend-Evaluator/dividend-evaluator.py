@@ -1,12 +1,11 @@
 import pandas as pd
-from pathlib import Path
-import numpy as np
+
 import json 
 import requests
 import urllib3
 from urllib3 import request
 
-import hvplot.pandas
+
 import streamlit as st
 import holoviews as hv
 
