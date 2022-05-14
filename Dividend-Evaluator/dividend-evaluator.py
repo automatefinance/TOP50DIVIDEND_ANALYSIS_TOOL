@@ -5,7 +5,7 @@ import json
 import requests
 import urllib3
 from urllib3 import request
-import matplotlib.pyplot as plt
+
 import hvplot.pandas
 import streamlit as st
 import holoviews as hv
