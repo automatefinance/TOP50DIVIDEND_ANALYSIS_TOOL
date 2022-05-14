@@ -7,7 +7,7 @@ from urllib3 import request
 
 
 import streamlit as st
-import holoviews as hv
+
 
 
 api_result = requests.get('http://api.marketstack.com/v1/dividends?access_key=d4dae97b992f9679cb6e46d027601db2&symbols=T,PFE,ABBV,XOM,GILD,INTC,ET,VZ,IBM,JPM,CVX,EPD,MO,UPS,MMM,C,KMI,MRK,BX,LUMN,BP,WBA,O,NRZ,NLY,AMGN,FTR,AGNC,VALE,ENB,RDS.A,KHC,VLO,DOW,PSEC,PM,DUK,DVN,MS,IIPR,RIO,PBR,GSK,SO,OHI,OKE,PRU,SPG,NEM,UTX,BKR,VTV,VYM,IWD,SCHD,RSP,IVE,DGRO,SPLG,SPYV,FVD&date_from=2017-01-01&date_to=2021-12-31&limit=1000&offset=0').json()
